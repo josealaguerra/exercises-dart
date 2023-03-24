@@ -1,0 +1,17 @@
+void main() {
+  String station="trenes ciudad paleta";
+  station=station.toUpperCase();
+  
+  int temperatureCelsius=27;
+  double temperatureFahrenheit=(temperatureCelsius*1.8)+32;
+  
+  List<String> cities=["Plateada", "Celeste", "Carmín", "Azulona"];
+  
+  print("""Buenos días, trabajadores de $station]"!!!
+
+El día de hoy la temperatura es de $temperatureCelsius grados centigrados u 
+$temperatureFahrenheit grados Fahrenheit!!
+
+El tren se detendr[a en las siguientes ciudades: $cities""");
+
+}
